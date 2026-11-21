@@ -1,0 +1,44 @@
+name: steve-1-creative
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  # Gym 0.21 and MineCLIP use legacy package metadata/build tooling.
+  - pip=24.0
+  - setuptools=65.5.0
+  - wheel=0.38.4
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu117
+      # Explicit CUDA wheels prevent Conda from silently selecting CPU builds.
+      - torch==2.0.1+cu117
+      - torchvision==0.15.2+cu117
+      - torchaudio==2.0.2+cu117
+      - numpy==1.23.5
+      - pandas==2.0.3
+      - scipy==1.10.1
+      - matplotlib==3.7.5
+      - pillow<11
+      - opencv-python==4.11.0.86
+      - plotly
+      - tqdm
+      - pyyaml
+      - accelerate==0.18.0
+      - anvil-parser
+      - dash
+      - gdown
+      - huggingface-hub==0.35.0
+      - gym==0.21.0
+      - gym3==0.3.3
+      - moviepy==1.0.3
+      - seaborn==0.13.2
+      - wandb
+      - x-transformers==0.27.1
+      - transformers==4.30.2
+      - tokenizers==0.13.3
+      - hydra-core
+      - dm-tree
+      - kornia==0.7.2
+      # Public creative-command fork, pinned to a dev revision.
+      - git+https://github.com/KarolisRam/minerl@d3d51b403b8750823fe6bfe3e82af8d80a8344dd
+      - git+https://github.com/MineDojo/MineCLIP@e6c06a0245fac63dceb38bc9bd4fecd033dae735

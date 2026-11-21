@@ -1,0 +1,41 @@
+MultiSTEVE-1s Code Release Licence Notice
+
+This source release contains two categories of code:
+
+1. Code inherited or adapted from the upstream STEVE-1 repository:
+   https://github.com/Shalev-Lifshitz/STEVE-1
+
+   As of 2026-05-06, that upstream repository did not contain a recognised
+   licence file. This notice does not grant a new licence for that upstream
+   code or for downloaded upstream STEVE-1 artefacts.
+
+2. New MultiSTEVE-specific release additions, including the `multisteve`
+   package, release documentation, figure-generation suite, release scripts,
+   configs, and source-only helper tools.
+
+   Unless otherwise noted in a file, those new release additions are provided
+   under the MIT License:
+
+MIT License
+
+Copyright (c) 2026 Karolis Jucys, George Adamopoulos, and Özgür Şimşek
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the new MultiSTEVE-specific software and associated documentation files
+(the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Third-party provenance and terms are documented in `THIRD_PARTY_NOTICES.md`.

@@ -1,0 +1,12 @@
+{
+  "overleaf": {
+    "include": [
+      "final_eval/**",
+      "villager/**",
+      "attention/**",
+      "teleport_layout/**",
+      "agent_trajectories/**"
+    ],
+    "exclude": []
+  }
+}

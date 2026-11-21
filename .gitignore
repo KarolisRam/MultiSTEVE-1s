@@ -1,0 +1,43 @@
+# Downloaded models, datasets, and rollout artifacts
+/data/
+*.weights
+*.model
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Generated outputs; retain the published figure inputs
+/outputs/*
+!/outputs/plot_suite/
+/outputs/plot_suite/*
+!/outputs/plot_suite/cache/
+/logs/
+/wandb/
+*.log
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+/build/
+/dist/
+/.venv/
+/venv/
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+*~
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example

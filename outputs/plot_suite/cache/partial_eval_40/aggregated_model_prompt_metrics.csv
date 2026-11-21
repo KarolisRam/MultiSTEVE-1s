@@ -1,0 +1,161 @@
+group_id,group_name,model_dir_name,model_label,model_sort_seed,modality,prompt,n_eval_seeds,dirt,dirt_ci95,logs,logs_ci95
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed1,init_s1,1,text,dirt-engineered,20,12.15,3.1350346888861105,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed1,init_s1,1,text,wood-engineered,20,0.4,0.46554465616498497,3.7,1.3589819145145718
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed1,init_s1,1,visual,dirt,20,17.55,3.6235541080405542,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed1,init_s1,1,visual,wood,20,1.05,0.9778913767292015,4.45,1.4601907369972074
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed2,init_s2,2,text,dirt-engineered,20,12.7,3.647732278556644,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed2,init_s2,2,text,wood-engineered,20,0.0,0.0,3.6,1.2649610533796833
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed2,init_s2,2,visual,dirt,20,16.6,4.311939697786652,0.05,0.10465120272041313
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed2,init_s2,2,visual,wood,20,0.2,0.24484097094432292,4.4,1.6661368222023523
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed3,init_s3,3,text,dirt-engineered,20,11.75,3.085366163735386,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed3,init_s3,3,text,wood-engineered,20,0.45,0.4420458040241051,2.8,1.1423669623935457
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed3,init_s3,3,visual,dirt,20,18.4,3.63284803736437,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed3,init_s3,3,visual,wood,20,0.75,0.8572796523491891,3.5,1.4040432192597283
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed4,init_s4,4,text,dirt-engineered,20,10.45,3.3214448417885882,0.05,0.10465120272041313
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed4,init_s4,4,text,wood-engineered,20,0.1,0.20930240544082626,3.65,1.2267917855484631
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed4,init_s4,4,visual,dirt,20,22.85,4.641248084639978,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed4,init_s4,4,visual,wood,20,0.5,0.7515890795757321,5.2,1.6536354105751492
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed5,init_s5,5,text,dirt-engineered,20,12.7,3.9598962411677325,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed5,init_s5,5,text,wood-engineered,20,0.6,0.8233245857163477,2.85,1.217358413845785
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed5,init_s5,5,visual,dirt,20,17.1,4.870617251729193,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed5,init_s5,5,visual,wood,20,0.65,0.5098655797108572,4.3,1.2622240266169156
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed6,init_s6,6,text,dirt-engineered,20,14.75,3.2949606749323666,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed6,init_s6,6,text,wood-engineered,20,0.4,0.7345229128329686,4.65,1.368913190212646
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed6,init_s6,6,visual,dirt,20,20.05,3.720873321018531,0.05,0.10465120272041313
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed6,init_s6,6,visual,wood,20,0.35,0.5319957581616132,4.4,1.2279658616000668
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed7,init_s7,7,text,dirt-engineered,20,11.15,3.182479851591212,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed7,init_s7,7,text,wood-engineered,20,0.05,0.10465120272041313,3.3,1.1869106431170509
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed7,init_s7,7,visual,dirt,20,19.8,3.652469800288037,0.1,0.14405179483524308
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed7,init_s7,7,visual,wood,20,0.25,0.3352623069691816,4.8,1.5077727032105408
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed8,init_s8,8,text,dirt-engineered,20,12.05,2.7894476933234307,0.05,0.10465120272041313
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed8,init_s8,8,text,wood-engineered,20,0.1,0.14405179483524308,3.8,1.0253681905343
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed8,init_s8,8,visual,dirt,20,20.6,3.2403649972185247,0.05,0.10465120272041313
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed8,init_s8,8,visual,wood,20,0.2,0.24484097094432297,5.95,1.3705964533019102
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed9,init_s9,9,text,dirt-engineered,20,11.8,2.855311846927126,0.05,0.10465120272041313
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed9,init_s9,9,text,wood-engineered,20,0.2,0.32566893574469286,3.15,0.8889680466244515
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed9,init_s9,9,visual,dirt,20,19.35,4.953638948876088,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed9,init_s9,9,visual,wood,20,0.3,0.37502682797524306,5.3,1.541795421748001
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed10,init_s10,10,text,dirt-engineered,20,9.6,2.6009228723768643,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed10,init_s10,10,text,wood-engineered,20,0.5,0.492030549808283,3.15,1.0440305039528714
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed10,init_s10,10,visual,dirt,20,16.8,3.5919995368572883,0.0,0.0
+01,Group 1 - Init Seed Sweep,01_init_seed_only_dataset_seed1-weight_init_seed10,init_s10,10,visual,wood,20,0.45,0.38638237304410694,4.7,1.2713245339790629
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed1-weight_init_seed1,data_s1,1,text,dirt-engineered,20,13.2,3.1140964057303178,0.05,0.10465120272041313
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed1-weight_init_seed1,data_s1,1,text,wood-engineered,20,0.2,0.32566893574469286,2.6,0.953115494956202
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed1-weight_init_seed1,data_s1,1,visual,dirt,20,17.0,3.802167011678247,0.0,0.0
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed1-weight_init_seed1,data_s1,1,visual,wood,20,0.4,0.4130601314913508,4.65,1.2997964085631546
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed2-weight_init_seed1,data_s2,2,text,dirt-engineered,20,12.7,3.2464074754498573,0.0,0.0
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed2-weight_init_seed1,data_s2,2,text,wood-engineered,20,0.55,0.6526639764349863,2.5,0.8522219111439951
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed2-weight_init_seed1,data_s2,2,visual,dirt,20,18.3,4.029160718646974,0.0,0.0
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed2-weight_init_seed1,data_s2,2,visual,wood,20,0.2,0.28810358967048616,3.25,1.3399742383429452
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed3-weight_init_seed1,data_s3,3,text,dirt-engineered,20,12.25,2.9594961247646863,0.1,0.14405179483524308
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed3-weight_init_seed1,data_s3,3,text,wood-engineered,20,0.2,0.24484097094432297,4.5,1.4760916494248488
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed3-weight_init_seed1,data_s3,3,visual,dirt,20,14.35,3.8271748277396465,0.1,0.20930240544082626
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed3-weight_init_seed1,data_s3,3,visual,wood,20,1.05,0.954022216735654,3.9,1.3315595354800687
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed4-weight_init_seed1,data_s4,4,text,dirt-engineered,20,10.75,2.732663349577803,0.0,0.0
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed4-weight_init_seed1,data_s4,4,text,wood-engineered,20,0.1,0.14405179483524308,2.35,0.8889680466244516
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed4-weight_init_seed1,data_s4,4,visual,dirt,20,17.15,3.664050840763097,0.1,0.14405179483524308
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed4-weight_init_seed1,data_s4,4,visual,wood,20,0.9,0.9945487254900184,3.85,1.2729104335064159
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed5-weight_init_seed1,data_s5,5,text,dirt-engineered,20,9.05,2.9383859166089246,0.0,0.0
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed5-weight_init_seed1,data_s5,5,text,wood-engineered,20,0.75,0.8837655554433362,3.3,1.4807702400773073
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed5-weight_init_seed1,data_s5,5,visual,dirt,20,15.4,3.2862898259988884,0.05,0.10465120272041313
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed5-weight_init_seed1,data_s5,5,visual,wood,20,0.15,0.22902775687968244,3.45,1.7277877038428961
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed6-weight_init_seed1,data_s6,6,text,dirt-engineered,20,12.75,3.7406497251102064,0.0,0.0
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed6-weight_init_seed1,data_s6,6,text,wood-engineered,20,0.1,0.14405179483524308,2.8,0.9433895721615527
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed6-weight_init_seed1,data_s6,6,visual,dirt,20,20.75,3.909428180225144,0.05,0.10465120272041313
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed6-weight_init_seed1,data_s6,6,visual,wood,20,0.25,0.29890506376814135,4.45,1.53711507757001
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed7-weight_init_seed1,data_s7,7,text,dirt-engineered,20,17.85,2.9727108294303712,0.0,0.0
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed7-weight_init_seed1,data_s7,7,text,wood-engineered,20,0.2,0.24484097094432297,2.65,0.9018429825902923
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed7-weight_init_seed1,data_s7,7,visual,dirt,20,25.0,3.459243216841466,0.05,0.10465120272041313
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed7-weight_init_seed1,data_s7,7,visual,wood,20,0.5,0.492030549808283,3.15,1.226791785548463
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed8-weight_init_seed1,data_s8,8,text,dirt-engineered,20,16.2,3.276452716574014,0.0,0.0
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed8-weight_init_seed1,data_s8,8,text,wood-engineered,20,0.3,0.5281899143958912,2.25,0.9707922528968266
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed8-weight_init_seed1,data_s8,8,visual,dirt,20,16.3,4.009082196138086,0.15,0.22902775687968244
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed8-weight_init_seed1,data_s8,8,visual,wood,20,0.6,0.5762071793409722,5.1,1.2603960401014467
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed9-weight_init_seed1,data_s9,9,text,dirt-engineered,20,13.65,4.2169849037790375,0.0,0.0
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed9-weight_init_seed1,data_s9,9,text,wood-engineered,20,0.2,0.32566893574469286,3.2,1.1524143586819446
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed9-weight_init_seed1,data_s9,9,visual,dirt,20,18.25,4.694593257510215,0.05,0.10465120272041313
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed9-weight_init_seed1,data_s9,9,visual,wood,20,0.1,0.14405179483524308,5.5,1.3453405963743137
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed10-weight_init_seed1,data_s10,10,text,dirt-engineered,20,15.35,2.8009956890909313,0.0,0.0
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed10-weight_init_seed1,data_s10,10,text,wood-engineered,20,0.15,0.17145593046983784,4.75,1.3739567928923382
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed10-weight_init_seed1,data_s10,10,visual,dirt,20,21.1,4.416283365207316,0.1,0.20930240544082626
+02,Group 2 - Data Seed Sweep,02_data_seed_only_dataset_seed10-weight_init_seed1,data_s10,10,visual,wood,20,0.85,0.7481299450220412,3.8,1.2937957775542606
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed1-weight_init_seed1,both_s1,1,text,dirt-engineered,20,14.0,3.309361604725148,0.0,0.0
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed1-weight_init_seed1,both_s1,1,text,wood-engineered,20,0.1,0.14405179483524308,3.2,1.0140627933375348
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed1-weight_init_seed1,both_s1,1,visual,dirt,20,22.55,4.3067899932539,0.05,0.10465120272041313
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed1-weight_init_seed1,both_s1,1,visual,wood,20,0.45,0.41514806458329606,3.85,1.2361531710986495
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed2-weight_init_seed2,both_s2,2,text,dirt-engineered,20,16.8,3.680766881774596,0.05,0.10465120272041313
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed2-weight_init_seed2,both_s2,2,text,wood-engineered,20,0.2,0.24484097094432297,3.0,0.9603452989016203
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed2-weight_init_seed2,both_s2,2,visual,dirt,20,19.55,3.955162613933368,0.05,0.10465120272041313
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed2-weight_init_seed2,both_s2,2,visual,wood,20,0.35,0.3803682725117635,3.55,1.491436655619236
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed3-weight_init_seed3,both_s3,3,text,dirt-engineered,20,14.05,3.5883871061089416,0.0,0.0
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed3-weight_init_seed3,both_s3,3,text,wood-engineered,20,0.4,0.7345229128329686,3.95,1.3536696358963116
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed3-weight_init_seed3,both_s3,3,visual,dirt,20,20.85,4.469153893620817,0.05,0.10465120272041313
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed3-weight_init_seed3,both_s3,3,visual,wood,20,0.85,1.0440305039528714,3.9,1.6062474912073896
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed4-weight_init_seed4,both_s4,4,text,dirt-engineered,20,12.5,3.5366924096496053,0.0,0.0
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed4-weight_init_seed4,both_s4,4,text,wood-engineered,20,0.2,0.4186048108816525,2.35,0.9145366819190007
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed4-weight_init_seed4,both_s4,4,visual,dirt,20,22.85,4.540806171821454,0.0,0.0
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed4-weight_init_seed4,both_s4,4,visual,wood,20,0.85,0.7003775286618633,4.55,1.444314312660622
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed5-weight_init_seed5,both_s5,5,text,dirt-engineered,20,10.0,3.4791813832038216,0.1,0.20930240544082626
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed5-weight_init_seed5,both_s5,5,text,wood-engineered,20,0.2,0.3256689357446929,2.5,0.904714593198412
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed5-weight_init_seed5,both_s5,5,visual,dirt,20,15.5,3.117426397491646,0.1,0.14405179483524308
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed5-weight_init_seed5,both_s5,5,visual,wood,20,1.1,0.9347963846386627,5.85,1.1591471191323208
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed6-weight_init_seed6,both_s6,6,text,dirt-engineered,20,18.4,3.2332417417420074,0.0,0.0
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed6-weight_init_seed6,both_s6,6,text,wood-engineered,20,0.0,0.0,3.5,1.0790538239898342
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed6-weight_init_seed6,both_s6,6,visual,dirt,20,21.0,3.2424989223738914,0.0,0.0
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed6-weight_init_seed6,both_s6,6,visual,wood,20,0.55,0.6870832706390474,3.3,1.2803603586588979
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed7-weight_init_seed7,both_s7,7,text,dirt-engineered,20,14.9,3.1410045270068188,0.0,0.0
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed7-weight_init_seed7,both_s7,7,text,wood-engineered,20,0.55,0.941860824483718,1.6,0.6858237218793514
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed7-weight_init_seed7,both_s7,7,visual,dirt,20,25.4,3.0117200269711697,0.0,0.0
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed7-weight_init_seed7,both_s7,7,visual,wood,20,0.7,1.1474016582837447,4.2,0.8669742907922882
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed8-weight_init_seed8,both_s8,8,text,dirt-engineered,20,16.1,3.7066716107299804,0.05,0.10465120272041313
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed8-weight_init_seed8,both_s8,8,text,wood-engineered,20,0.75,0.7101849259533294,3.05,1.0239618420593497
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed8-weight_init_seed8,both_s8,8,visual,dirt,20,20.9,4.811080749648721,0.0,0.0
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed8-weight_init_seed8,both_s8,8,visual,wood,20,1.85,1.706302816648004,4.3,1.5343000179870412
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed9-weight_init_seed9,both_s9,9,text,dirt-engineered,20,16.35,3.1533673092679098,0.0,0.0
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed9-weight_init_seed9,both_s9,9,text,wood-engineered,20,0.15,0.22902775687968244,3.05,1.3365284615344077
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed9-weight_init_seed9,both_s9,9,visual,dirt,20,21.6,3.8094369361208273,0.1,0.14405179483524308
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed9-weight_init_seed9,both_s9,9,visual,wood,20,0.95,1.035159133332474,4.15,1.7197623256592853
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed10-weight_init_seed10,both_s10,10,text,dirt-engineered,20,16.1,3.5929622383183197,0.0,0.0
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed10-weight_init_seed10,both_s10,10,text,wood-engineered,20,0.25,0.3352623069691816,3.3,1.3589819145145716
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed10-weight_init_seed10,both_s10,10,visual,dirt,20,21.75,3.7652241612673674,0.05,0.10465120272041313
+03,Group 3 - Init+Data Seed Sweep,03_init_and_data_dataset_seed10-weight_init_seed10,both_s10,10,visual,wood,20,0.35,0.46243891998594405,2.8,1.2848544418295686
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed1,flip_s1,1,text,dirt-engineered,20,12.25,4.580240528222242,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed1,flip_s1,1,text,wood-engineered,20,0.3,0.375026827975243,3.25,1.1944143846143929
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed1,flip_s1,1,visual,dirt,20,20.35,4.241517520257679,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed1,flip_s1,1,visual,wood,20,0.8,0.8931727579538646,4.4,1.2920124606797032
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed2,flip_s2,2,text,dirt-engineered,20,12.55,3.2263707550723884,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed2,flip_s2,2,text,wood-engineered,20,0.45,0.5777057701145835,2.3,1.1064828313715682
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed2,flip_s2,2,visual,dirt,20,20.75,3.819938661352646,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed2,flip_s2,2,visual,wood,20,0.65,0.7325584190428919,3.55,1.099951769529012
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed3,flip_s3,3,text,dirt-engineered,20,12.5,3.5464578007439074,0.1,0.20930240544082626
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed3,flip_s3,3,text,wood-engineered,20,0.5,0.578204437251121,3.05,1.310396350921105
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed3,flip_s3,3,visual,dirt,20,17.1,3.813973601937187,0.2,0.32566893574469286
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed3,flip_s3,3,visual,wood,20,1.15,1.254666416651601,4.6,1.4908568188880806
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed4,flip_s4,4,text,dirt-engineered,20,12.7,2.7754643729122526,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed4,flip_s4,4,text,wood-engineered,20,0.25,0.4261109555719976,3.35,1.3086356563389736
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed4,flip_s4,4,visual,dirt,20,16.95,3.7853779725354717,0.05,0.10465120272041313
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed4,flip_s4,4,visual,wood,20,0.55,0.8518836607194215,4.9,1.6205382308560805
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed5,flip_s5,5,text,dirt-engineered,20,14.85,4.100559160763534,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed5,flip_s5,5,text,wood-engineered,20,0.0,0.0,3.75,1.3739567928923382
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed5,flip_s5,5,visual,dirt,20,19.55,3.6897604932823027,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed5,flip_s5,5,visual,wood,20,0.4,0.44008550255116674,5.85,1.2997964085631546
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed6,flip_s6,6,text,dirt-engineered,20,13.0,4.0772285015108025,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed6,flip_s6,6,text,wood-engineered,20,0.7,0.9123280339565393,4.05,1.3536696358963116
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed6,flip_s6,6,visual,dirt,20,19.05,3.788422227297904,0.1,0.14405179483524308
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed6,flip_s6,6,visual,wood,20,0.65,0.7325584190428919,3.8,1.1623749100115586
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed7,flip_s7,7,text,dirt-engineered,20,11.2,3.500982220405763,0.2,0.3256689357446929
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed7,flip_s7,7,text,wood-engineered,20,0.0,0.0,2.1,0.830296129166592
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed7,flip_s7,7,visual,dirt,20,20.65,4.362111513294404,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed7,flip_s7,7,visual,wood,20,0.7,0.8049160347008352,4.9,1.5327965389213998
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed8,flip_s8,8,text,dirt-engineered,20,12.05,2.9812303073621034,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed8,flip_s8,8,text,wood-engineered,20,0.15,0.22902775687968244,3.5,1.0683167029205445
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed8,flip_s8,8,visual,dirt,20,19.1,3.435500245122166,0.05,0.10465120272041313
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed8,flip_s8,8,visual,wood,20,0.85,1.4664931811211723,5.25,1.5022191937210685
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed9,flip_s9,9,text,dirt-engineered,20,11.8,3.491089625835046,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed9,flip_s9,9,text,wood-engineered,20,0.35,0.4624389199859441,2.45,0.9295403355256233
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed9,flip_s9,9,visual,dirt,20,16.15,4.100559160763534,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed9,flip_s9,9,visual,wood,20,0.25,0.25746390002906344,3.65,1.139082476880685
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed10,flip_s10,10,text,dirt-engineered,20,14.5,3.1248136741946495,0.0,0.0
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed10,flip_s10,10,text,wood-engineered,20,0.2,0.32566893574469286,4.25,1.2040275327009096
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed10,flip_s10,10,visual,dirt,20,17.8,4.228791952277171,0.05,0.10465120272041313
+04,Group 4 - Single LSB Flip Sweep,04_single_lsb_flip_dataset_seed1-weight_init_seed1-bitflip_seed10,flip_s10,10,visual,wood,20,0.55,0.7512055178872787,6.05,1.4758963862915884

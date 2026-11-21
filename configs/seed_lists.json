@@ -1,0 +1,8 @@
+{
+  "tmaze_layout_seeds": [49, 481],
+  "villager_agent_111_114_seed_sweep": [49, 2, 3, 86, 129, 135, 139, 147, 148, 195],
+  "notes": {
+    "tmaze_layout_seeds": "Seeds used for the paper T-maze regular-tree versus villager-tree layouts.",
+    "villager_agent_111_114_seed_sweep": "Environment seeds used for the Agent 111 vs Agent 114 villager-tree seed sweep."
+  }
+}

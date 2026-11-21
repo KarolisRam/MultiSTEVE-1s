@@ -1,0 +1,220 @@
+{
+  "queue_db_path": "data/final-evals/_queue/state.sqlite3",
+  "state_root": "data/final-evals/_queue",
+  "episodes_root": "data/final-evals",
+  "runner_script": "steve1/run_agent/run_agent_with_logging.py",
+  "default_episode_seeds": [
+    1, 2, 3, 4, 5,
+    6, 7, 8, 9, 10,
+    11, 12, 13, 14, 15,
+    16, 17, 18, 19, 20
+  ],
+  "common_args": {
+    "in_model": "data/weights/vpt/2x.model",
+    "prior_weights": "data/weights/steve1/steve1_prior.pt",
+    "gameplay_length": 1000,
+    "text_cond_scale": 6.0,
+    "visual_cond_scale": 7.0,
+    "save_additional_data": false,
+    "fake_env_zip": null,
+    "wipe_hidden_state_each_step": false,
+    "placement": [],
+    "extra_args": []
+  },
+  "runtime": {
+    "conda_env": "steve-1-creative",
+    "heartbeat_seconds": 30,
+    "lease_timeout_seconds": 1200,
+    "missing_weights_retry_seconds": 900,
+    "failed_retry_seconds": 300,
+    "failed_max_retries": -1,
+    "idle_sleep_seconds": 5
+  },
+  "experiments": [
+    {
+      "name": "01_full_eval",
+      "output_dir": "01_full_eval",
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 14,
+      "expected_visual_prompt_count": 11,
+      "model_source": {
+        "type": "explicit_models",
+        "models": [
+          {
+            "label": "Original",
+            "weights_path": "data/weights/steve1/steve1.weights"
+          },
+          {
+            "label": "Ours",
+            "weights_path": "data/model_zoo/01_init_seed_only/dataset_seed1-weight_init_seed1/STEVE-1_snapshot_160005120.weights"
+          }
+        ]
+      },
+      "text_prompts": [
+        {
+          "name": "dig",
+          "text": "dig as far as possible"
+        },
+        {
+          "name": "dirt (engineered)",
+          "text": "get dirt, dig hole, dig dirt, gather a ton of dirt, collect dirt"
+        },
+        {
+          "name": "dirt",
+          "text": "get dirt"
+        },
+        {
+          "name": "sky",
+          "text": "look at the sky"
+        },
+        {
+          "name": "leaves",
+          "text": "break leaves"
+        },
+        {
+          "name": "wood (engineered)",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        },
+        {
+          "name": "wood",
+          "text": "chop a tree"
+        },
+        {
+          "name": "seeds (engineered)",
+          "text": "break tall grass, break grass, collect seeds, punch the ground, run around in circles getting seeds from bushes"
+        },
+        {
+          "name": "seeds",
+          "text": "collect seeds"
+        },
+        {
+          "name": "flower",
+          "text": "break a flower"
+        },
+        {
+          "name": "explore",
+          "text": "go explore"
+        },
+        {
+          "name": "swim",
+          "text": "go swimming"
+        },
+        {
+          "name": "underwater",
+          "text": "go underwater"
+        },
+        {
+          "name": "inventory",
+          "text": "open inventory"
+        }
+      ],
+      "visual_prompts": [
+        "dig",
+        "dirt",
+        "explore",
+        "flower",
+        "inventory",
+        "leaves",
+        "seeds",
+        "sky",
+        "swim",
+        "underwater",
+        "wood"
+      ]
+    },
+    {
+      "name": "02_partial_eval_40_models",
+      "output_dir": "02_partial_eval_40_models",
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 2,
+      "expected_visual_prompt_count": 2,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/01_init_seed_only",
+          "data/model_zoo/02_data_seed_only",
+          "data/model_zoo/03_init_and_data",
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": true,
+        "skip_missing_weights": true,
+        "enqueue_missing_weights_jobs": true,
+        "expected_model_count": 40
+      },
+      "text_prompts": [
+        {
+          "name": "dirt (engineered)",
+          "text": "get dirt, dig hole, dig dirt, gather a ton of dirt, collect dirt"
+        },
+        {
+          "name": "wood (engineered)",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [
+        "dirt",
+        "wood"
+      ]
+    },
+    {
+      "name": "03_partial_eval_28_checkpoints",
+      "output_dir": "03_partial_eval_28_checkpoints",
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 2,
+      "expected_visual_prompt_count": 2,
+      "model_source": {
+        "type": "checkpoints_in_run",
+        "run_dir": "data/model_zoo/01_init_seed_only/dataset_seed1-weight_init_seed1",
+        "include_step_zero": true,
+        "expected_model_count": 28
+      },
+      "text_prompts": [
+        {
+          "name": "dirt (engineered)",
+          "text": "get dirt, dig hole, dig dirt, gather a ton of dirt, collect dirt"
+        },
+        {
+          "name": "wood (engineered)",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [
+        "dirt",
+        "wood"
+      ]
+    },
+    {
+      "name": "04_tree_prompt_100_models",
+      "output_dir": "04_tree_prompt_100_models",
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "seed_range_template",
+        "root": "data/model_zoo/05_final_init_and_data_100",
+        "dir_template": "dataset_seed{seed}-weight_init_seed{seed}",
+        "seed_start": 101,
+        "seed_end": 200,
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "skip_missing_dirs": true,
+        "skip_missing_weights": true,
+        "enqueue_missing_weights_jobs": true,
+        "expected_model_count": 100
+      },
+      "text_prompts": [
+        {
+          "name": "wood",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": []
+    }
+  ]
+}

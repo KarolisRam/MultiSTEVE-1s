@@ -1,0 +1,1401 @@
+{
+  "name": "villager_bitflip10_engineered",
+  "queue_db_path": "data/evals-villager/_queue/state.sqlite3",
+  "state_root": "data/evals-villager/_queue",
+  "episodes_root": "data/evals-villager",
+  "runner_script": "steve1/run_agent/run_agent_with_logging_teleport.py",
+  "default_episode_seeds": [
+    49
+  ],
+  "common_args": {
+    "in_model": "data/weights/vpt/2x.model",
+    "prior_weights": "data/weights/steve1/steve1_prior.pt",
+    "gameplay_length": 1000,
+    "text_cond_scale": 6.0,
+    "visual_cond_scale": 7.0,
+    "save_additional_data": false,
+    "fake_env_zip": null,
+    "wipe_hidden_state_each_step": false,
+    "placement": [],
+    "extra_args": [
+      "--teleport_to_spawn_every",
+      "0"
+    ]
+  },
+  "runtime": {
+    "conda_env": "steve-1-creative",
+    "heartbeat_seconds": 30,
+    "lease_timeout_seconds": 1200,
+    "missing_weights_retry_seconds": 900,
+    "failed_retry_seconds": 300,
+    "failed_max_retries": -1,
+    "idle_sleep_seconds": 5
+  },
+  "metadata": {
+    "top_output_dir": "villager_chop_bitflip_10_wood_engineered",
+    "expected_total_jobs": 400,
+    "notes": "20 passes, engineered wood prompt, 10 bitflip models, both logs_above_villager settings"
+  },
+  "experiments": [
+    {
+      "name": "zz_villager_bitflip10_pass_01__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_01/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_01__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_01/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_02__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_02/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_02__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_02/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_03__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_03/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_03__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_03/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_04__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_04/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_04__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_04/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_05__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_05/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_05__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_05/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_06__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_06/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_06__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_06/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_07__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_07/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_07__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_07/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_08__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_08/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_08__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_08/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_09__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_09/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_09__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_09/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_10__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_10/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_10__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_10/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_11__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_11/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_11__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_11/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_12__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_12/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_12__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_12/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_13__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_13/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_13__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_13/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_14__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_14/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_14__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_14/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_15__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_15/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_15__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_15/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_16__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_16/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_16__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_16/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_17__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_17/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_17__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_17/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_18__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_18/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_18__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_18/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_19__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_19/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_19__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_19/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_20__logs_above_villager_false",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_20/logs_above_villager_false",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=false"
+        ]
+      }
+    },
+    {
+      "name": "zz_villager_bitflip10_pass_20__logs_above_villager_true",
+      "output_dir": "villager_chop_bitflip_10_wood_engineered/pass_20/logs_above_villager_true",
+      "episode_seeds": [
+        49
+      ],
+      "text_custom_seed_mode": "fixed",
+      "text_custom_seed": 13,
+      "expected_text_prompt_count": 1,
+      "expected_visual_prompt_count": 0,
+      "model_source": {
+        "type": "models_from_roots",
+        "roots": [
+          "data/model_zoo/04_single_lsb_flip"
+        ],
+        "checkpoint_step": 160005120,
+        "fallback_to_latest": false,
+        "include_root_in_label": false,
+        "skip_missing_weights": false,
+        "expected_model_count": 10
+      },
+      "text_prompts": [
+        {
+          "name": "wood-engineered",
+          "text": "chop down the tree, gather wood, pick up wood, chop it down, break tree"
+        }
+      ],
+      "visual_prompts": [],
+      "common_args_override": {
+        "placement": [
+          "side=left,villager=true,logs_above_villager=true"
+        ]
+      }
+    }
+  ]
+}
